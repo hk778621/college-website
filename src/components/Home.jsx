@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/bg-image.jpg"; // agar image src/assets mein hai
+import bgImage from "../assets/bg-image.jpg"; 
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       id="home"
       className="h-screen flex items-center justify-center text-center text-white"
       style={{
-        backgroundImage: `url(${bgImage})`, // image apply ho gi
+        backgroundImage: `url(${bgImage})`, 
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
